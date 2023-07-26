@@ -27,16 +27,24 @@ void calculator(n1,n2,op) {
     r=stdin.readLineSync()!;
   }
 }
-void biggest(s1,s2) {
+String biggest(s1,s2) {
+  var ret;
   if (s1 > s2) {
     print("the greatest num is $s1");
+    ret = "the greatest num is $s1";
   }
   else if (s2 > s1) {
-    print("he greatest num is $s2");
+    print("the greatest num is $s2");
+    ret = "the greatest num is $s2";
   }
   else if (s1 == s2) {
     print("equal");
+  }else{
+
   }
+  return ret;
+
+
 }
 
 void main(){
@@ -47,5 +55,5 @@ void main(){
   print("enter the operator");
   dynamic op1 = stdin.readLineSync()!;
   calculator(input1,input2,op1);
-  biggest(input1,input2);
+  print(biggest(input1,input2));
 }
