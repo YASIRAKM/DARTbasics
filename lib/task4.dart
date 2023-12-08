@@ -5,7 +5,7 @@ void main(){
   var a = double.parse(stdin.readLineSync()!);
   print("enter the n2:");
   var b = double.parse(stdin.readLineSync()!);
-  print("isequal ${a==b}");
+  print("equal ${a==b}");
   print("upper ${a<b}");
   print("lower ${a>b}");
   print("goe ${a<=b}");

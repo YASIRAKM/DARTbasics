@@ -12,6 +12,6 @@ void main() {
   print("mul = ${a*=b}");
   print("div = ${a/=b}");
   print("mod = ${a%=b}");
-  print("fdiv = ${a~/b}");
+  print("div = ${a~/b}");
 
 }
